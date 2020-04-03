@@ -1,0 +1,10 @@
+[core]
+    editor = vim
+[color]
+    status = auto
+    branch = auto
+    interactive = auto
+    diff = auto
+[alias]
+    co = checkout
+    stat = status
