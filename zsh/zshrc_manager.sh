@@ -13,7 +13,7 @@
 
 #echo "Checking for updates."
 #({cd ~/dotfiles && git fetch -q} &> /dev/null)
- 
+# 
 #if [ $({cd ~/dotfiles} &> /dev/null && git rev-list HEAD...origin/master | wc -l) = 0 ]
 #then
 #	echo "Already up to date."
@@ -23,5 +23,5 @@
 #	echo "Setting up..."
 #	({cd ~/dotfiles} &> /dev/null && git pull -q && git submodule update --init --recursive)
 #fi
-
+#
 source ~/dotfiles/zsh/zshrc.sh
