@@ -85,4 +85,6 @@ alias ls='ls -F'
 alias ll='ls -lh'
 
 # Prompt
-PROMPT='%n@%M %~ %? %#>'
+autoload -U colors && colors
+#PROMPT='%n@%M% %~ %? %# '
+PROMPT="%{$fg[red]%}%n%{$reset_color%}@%{$fg[blue]%}%m %{$fg[yellow]%}%~ %{$reset_color%}% %# "
