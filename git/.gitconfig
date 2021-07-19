@@ -6,5 +6,4 @@
     interactive = auto
     diff = auto
 [alias]
-    co = checkout
     stat = status
