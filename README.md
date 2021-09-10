@@ -27,3 +27,11 @@ This assumes you have a bash shell.
 - https://github.com/Parth/dotfiles
 - https://github.com/hamvocke/dotfiles
 - https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/
+
+
+# Useful commands
+
+To remove old linux kernels taking up space in `/boot`:
+`dpkg -l|grep 5.4.0|grep ^rc|cut -d' ' -f 3|xargs -I '{}' sudo apt -y purge '{}'`
+
+Modify  5.4.0

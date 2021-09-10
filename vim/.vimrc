@@ -23,4 +23,4 @@ set linebreak              " Avoid wrapping a line in the middle of a word
 set hlsearch               " Enable search highlighting
 
 " Key mappings
-inoremap fd <esc>          " Esc in insert mode
+inoremap fd <esc>          " Esc in insert mode using fd
